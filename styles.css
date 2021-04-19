@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'open sans', sans-serif;
 }
 
 html {
@@ -17,18 +17,22 @@ html {
 	font-size: 15px;
 	color: #0f0f0f;
 	background: #ffffff;
-	line-height: 1.5;
+	line-height: 1.6;
     width: 90%;
 	max-width: 1100px;
 	margin: 5% auto;
     box-shadow: 5px 5px 5px 0px #F68B1F;
-    padding: 0 30px;
+    padding: 0 40px;
     
 }
 
 a {
 	color: #262626;
 	text-decoration: none;
+}
+p {
+    font-size: small;
+    color:#333132;
 }
 
 ul {
@@ -37,19 +41,35 @@ ul {
 
 .top {
     height:40px;
-    width: 30%;
+    width: 35%;
     background-color: #F68B1F;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 .name {
     text-align: center;
-    margin-top: 60px;
-    font-size: 50px;   
+    padding: 60px 0;
+    font-size: 50px; 
+    font-weight: bolder;
 }
 
 .cv-body {
     display: grid;
-    gap: 10px;
+    gap: 30px;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.aside {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.about-me h2 {
+    text-align: center;
+}
+
+.about-me p {
+    text-align: left;
 }
