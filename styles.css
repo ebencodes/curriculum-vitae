@@ -30,14 +30,19 @@ a {
 	color: #262626;
 	text-decoration: none;
 }
+
 p {
     font-size: small;
     color:#333132;
 }
 
 ul {
-	list-style: none;
+    list-style: disc;
 }
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
 
 .top {
     height:40px;
@@ -107,6 +112,15 @@ ul {
     gap: 20px;
     padding-bottom: 30px;
 }
+
+.exp-body ul li::before {
+    content: "\2022";
+    color:#F68B1F;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+  }
 
 .heading {
     display: flex;
