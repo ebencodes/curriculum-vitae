@@ -104,11 +104,58 @@ ul {
 .exp {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 10px;
+    gap: 20px;
     padding-bottom: 30px;
 }
 
 .heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.comp-name {
+    flex: 0 1 70%;
+}
+
+/**education**/
+.education h2 {
+    padding-bottom: 20px;
+}
+
+.edu {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding-bottom: 30px; 
+}
+
+.edu-name {
+    flex: 0 1 70%;
+}
+
+.skills h2 {
+    padding-bottom: 20px;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.skill-name {
+    flex: 0 1 70%;
+}
+
+/**Refrence**/
+
+.reference h2 {
+    padding-bottom: 20px;
+}
+
+.ref {
     display: flex;
     justify-content: space-between;
 }
