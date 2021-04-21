@@ -33,11 +33,7 @@ a {
 
 p {
     font-size: small;
-    color:#333132;
-}
-
-ul {
-    list-style: disc;
+    color:c
 }
 
 ul {
@@ -49,6 +45,35 @@ ul {
     width: 35%;
     background-color: #F68B1F;
     margin-left: 2%;
+}
+
+
+.hr {
+    position: relative;
+    margin-bottom: 20px;
+}
+.hr1 {
+    border: 1px solid  #262626;
+
+}
+
+.hr-center {
+    height:5px;
+    width: 50px;
+    background-color: #F68B1F;
+    position: absolute;
+    left: 40%;
+    top: -2px;
+}
+
+.hr-left {
+    height:5px;
+    width: 50px;
+    background-color: #F68B1F;
+    position: absolute;
+    left: 0;
+    top: -2px;
+   
 }
 
 .name {
@@ -74,27 +99,25 @@ ul {
 
 .about-me h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .about-me p {
     text-align: left;
-    padding: 20px 0;
-}
-
-.contact {
-    margin-top: 20px;
+    padding-bottom: 40px;
 }
 
 .contact h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .contact ul {
-    padding: 20px 0;
+    padding-bottom: 40px;
 }
 
 .contact li {
-    padding:5px 0
+    padding-bottom:10px;
 }
 
 .contact ul:last-child {
@@ -102,15 +125,19 @@ ul {
 }
 
 /**Experiences Style**/
-.experiences h2 {
+.experiences {
     padding-bottom: 20px;
+}
+
+.experiences h2 {
+    padding-bottom: 10px;
 }
 
 .exp {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .exp-body ul li::before {
@@ -133,15 +160,19 @@ ul {
 }
 
 /**education**/
-.education h2 {
+.education{
     padding-bottom: 20px;
+}
+
+.education h2 {
+    padding-bottom: 10px;
 }
 
 .edu {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
 }
 
 .edu-name {
@@ -149,7 +180,11 @@ ul {
 }
 
 .skills h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.skills {
+    padding-bottom: 30px;
 }
 
 .skill {
@@ -166,7 +201,7 @@ ul {
 /**Refrence**/
 
 .reference h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .ref {
@@ -177,36 +212,38 @@ ul {
 /*Achievements style */
 .achivements h2 {
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 10px;
+}
+
+.ach-body {
+    padding-bottom: 30px;
 }
 
 .achivement {
     display: flex;
-    padding: 10px 0;
+    padding-bottom: 10px;
     justify-content: space-between;
 }
 
-
-
+/**Organizations style**/
 .organizations {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .organizations h2 {
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
-
-.organizations h3 {
+.organizations h4 {
     text-align: left;
     margin-bottom: 20px;
-    flex: 0 1 60%;
+    flex: 0 1 70%;
     
 }
 
 .org {
     display: flex;
-    padding: 10px 0;
+    padding-bottom: 5px;
     justify-content: space-between;
 }
